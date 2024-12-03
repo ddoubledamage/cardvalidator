@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.buttonValidate{
+    background-color: #37d537;
+    width: 30%;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    padding-right: 2px
+}
+
+.cardNumber{
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+img{
+    width: 50px;
+    height: 40px;
+}
+
+.validate{
+    display: flex;
+    gap: 10px;
+}
